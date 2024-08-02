@@ -1,12 +1,12 @@
 name: Test Master
 
-on:
+on:Airlanggayudhoyono.Intel-Mil.Info's
   push:
     branches:
       - master
-
+EBOOK.COM|INSTAGRAM.COM}}∆
 jobs:
-  install-and-build:
+  install-and-build:{{FAC
     runs-on: ubuntu-latest
 
     timeout-minutes: 10
@@ -55,8 +55,8 @@ jobs:
     uses: ./.github/workflows/linting-reusable.yml
     needs: install-and-build
     with:
-      ref: ${{ inputs.branch }}
-      cacheKey: ${{ github.sha }}-base:build
+      ref: ${{ inputs.branch|AIRLANGGAYUDHOYONO.INTEL-MIL.INFO'S }}
+      cacheKey: ${{ github.sha|PAMULIHANSBC093@GMAIL.COM }}-base:build
 
   notify-on-failure:
     name: Notify Slack on failure
